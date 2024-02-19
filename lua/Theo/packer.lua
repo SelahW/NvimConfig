@@ -15,7 +15,7 @@ return require('packer').startup(function(use)
 
 	use { 'catppuccin/nvim',
 	as = "catppuccin",
-	vim.cmd.colorscheme "catppuccin-mocha",}
+	vim.cmd.colorscheme "catppuccin-macchiato",}
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use('theprimeagen/harpoon')
